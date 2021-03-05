@@ -1,0 +1,17 @@
+There is also a "for-each" loop, which is used exclusively to loop through elements in an array:
+
+for (type variableName : arrayName) {
+  // code block to be executed
+}
+
+
+//Use for each to loop through the array
+
+public class Main {
+  public static void main(String[] args){
+    String [] cars= {"Volvo", "BM", "Ford", "Mazda"};
+    for (String i : cars){
+      System.out.println(i);
+    }
+  }
+}
