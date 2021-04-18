@@ -1,0 +1,16 @@
+Final Variables
+However, you can add the final keyword 
+if you don't want others (or yourself) to overwrite existing values (this will declare the variable as "final" or "constant", which means unchangeable and read-only):
+
+package com.company;
+import java.util.Arrays;
+import java.util.Date;
+
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here~
+        //use final to make a variable into constant
+        final float pi = 10;
+
+    }}
