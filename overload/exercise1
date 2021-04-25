@@ -1,0 +1,25 @@
+import javax.swing.*;
+
+public class exercise {
+    static  int soma(int a, int b){
+        return  a + b;
+    }
+    static  int soma(int a, int b, int c){
+        return a + b + c;
+    }
+    static double soma(double x, double y){
+        return (x+y);
+    }
+    public static void main(String[] args){
+        int n1, n2, n3;
+        double w1, w2 ;
+        n1= Integer.parseInt(JOptionPane.showInputDialog("Soma de valores inteiros-Digital Valor 1:"));
+        n2= Integer.parseInt(JOptionPane.showInputDialog("Soma de valores inteiros-Digital Valor 2:"));
+        n3= Integer.parseInt(JOptionPane.showInputDialog("Soma de valores inteiros-Digital Valor 3:"));
+        w1= Double.parseDouble(JOptionPane.showInputDialog("Soma de valores inteiros-Digital Valor 1:"));
+        w2= Double.parseDouble(JOptionPane.showInputDialog("Soma de valores inteiros-Digital Valor 2:"));
+        System.out.println(Integer.toString(soma(n1, n2)));
+        System.out.println(Integer.toString((soma(n1,n2,n3))));
+        System.out.println(Double.toString(soma(w1, w2)));
+    }
+}
