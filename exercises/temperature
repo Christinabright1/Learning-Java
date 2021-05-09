@@ -1,0 +1,26 @@
+
+/*Faça um programa para converter uma temperatura de grau Celsius para
+Fahrenheit.
+Comece por declarar as variáveis e ler o valor da temperatura Celsius.
+Fórmula: °F = °C × 1,8 + 32.*/
+
+
+/*O Swing é uma Biblioteca que permite o uso de caixas
+    diálogo de entrada e saída de dados do tipo inputBox
+    e MessageBox*/
+import javax.swing.JOptionPane;
+
+class Main {
+  public static void main(String[] args) {
+    //leitura de forma ascii
+    Double fahrenheit;
+    int celsius;
+    String num;
+    num= JOptionPane.showInputDialog("Digit numero: ");
+    
+     celsius= Integer.parseInt(num);
+    fahrenheit = celsius * 1.8+ 32;
+
+    JOptionPane.showMessageDialog(null, fahrenheit);
+  }
+}
