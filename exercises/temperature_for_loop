@@ -1,0 +1,20 @@
+Faça um programa para gerar e converter para Fahrenheit as temperaturas de
+graus Celsius compreendidas entre 10 e 20 graus.
+Nota:
+Use ciclos (as temperaturas a converter devem ser geradas e não digitadas, por
+exemplo: fazer um processo repetitivo, ciclos, entre 10 e 20 e use os valores do
+contador como os valores das temperaturas a converter).
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int celsius;
+	    double fahrenheit;
+	    for(celsius = 10; celsius <= 20; celsius++){
+	        
+	        fahrenheit= celsius * 1.8+ 32 ;
+	        	System.out.println(fahrenheit);
+	    }
+	
+	}
+}
