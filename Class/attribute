@@ -1,0 +1,14 @@
+class Main {
+  //create an attribute
+  int x = 5;
+  int y = 6;
+  //Accessing the attributes
+  
+  public static void main(String[] args) {
+      //Accessing the attributes
+    Main myObj = new Main();
+    
+    
+    System.out.println(myObj.x);
+  }
+}
